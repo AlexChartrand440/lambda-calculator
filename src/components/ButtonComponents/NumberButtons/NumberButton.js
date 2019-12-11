@@ -1,9 +1,12 @@
 import React from "react";
 
-const NumberButton = () => {
+const NumberButton = (props) => { 
+
   return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
+    <> 
+      {props.num == 0 ? <button className='number-button button' style={{width: '140px'}}>{props.num}</button> : <button className='number-button button'>{props.num}</button>}
     </>
   );
 };
+
+export default NumberButton;

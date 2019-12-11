@@ -10,3 +10,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.number-button { background: #094377; }
+
+.special-button { background: #0B5D9B; }
+
+.operator-button { background: #007291; }
+
+.button {
+
+  margin: 5px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  font-size: 25px;
+  border-style: none;
+  border-radius: 50px;
+  border-bottom: darkslategray 4px solid;
+
+}
+/*width: '75%', height: '75px', background: '#323335', margin: '0 auto', paddingTop: '0px'*/
+/* .display {
+
+  width: 75%;
+  height: 75px;
+  background: #323335;
+
+} */
